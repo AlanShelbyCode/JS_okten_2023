@@ -1,0 +1,156 @@
+/*Стилизація проєкта -*/
+/*index.html - всі блоки з user - по 2 в рядок. кнопки/аосилвння розташувати під інформацією про user.*/
+/*user-details.html - блок з інфою про user зверху сторінки. Кнопка нижчє, на 90% ширини сторінки, по центру.*/
+/*блоки з короткою іфною про post - в ряд по 5 .*/
+/*post-details.html - блок з інфою про пост зверху. Коментарі - по 4 в ряд. Всі елементи котрі характеризують users,
+ posts, comments візуалізувати, так, щоб було видно що це блоки (дати фон. марджини і тд)*/
+body{
+    background: #8aa84c;
+}
+.a-main{
+    transition: 0.7s;
+    width: 200px;
+    margin: 10px;
+    display: inline-block;
+    background-color: #5a8142;
+    color: #fff;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: #ffffff;
+    margin-left: 25%;
+    width: 50%;
+
+}
+.user-item{
+    width: 90%;
+    min-width: 500px;
+    margin-left: 5%;
+
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+   /*overflow: auto;*/
+}
+.divLeft-user-item {
+    width: 200px;
+}
+.divRight-user-item {
+    width: 200px;
+}
+.main-user-info{
+    min-width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background-color: white;
+
+}
+.div-users-info{
+
+    width: 200px;
+    margin: 10px;
+    display: inline-block;
+    background-color: #5a8142;
+    color: #fff;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    text-align: center;
+
+}
+.user-button{
+    margin-top: 10px;
+    margin-left: 5%;
+    width: 90%;
+    display: inline-block;
+    background-color: #5a8142;
+    color: #ffffff;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    font-size: 20px;
+    cursor: grab;
+
+}
+.div-center{
+    display: flex;
+    justify-content: center;
+}
+.container {
+    min-width: 1200px;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.block {
+    transition: 0.5s;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+}
+.p-user {
+    font-size: 18px;
+    font-weight: bold ;
+    margin: 0;
+}
+
+.a-user {
+    transition: 1s;
+    padding: 4px;
+    color: #333338;
+    text-decoration: none;
+    margin-top: 10px;
+    border: 2px solid black;
+}
+.main-post-info{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    background-color: white;
+}
+.div-post-info{
+    width: 200px;
+    margin: 10px;
+    background-color: #5a8142;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+.container-post{
+    min-width: 1200px;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.block-post{
+    width: 225px;
+    margin: 10px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 1rem 1.5rem;
+}
+.div-post-comment {
+    font-size: 18px;
+    margin: 3px;
+}
